@@ -1,0 +1,76 @@
+.mainbody
+{
+    position: relative;
+    overflow: auto;
+}
+#hat{
+    top:240px;
+    background-position: 3px 3px;
+    background-color:beige;
+    position: relative;
+    border:1px solid rgba(165, 165, 74, 0.438);
+    border-bottom-style: groove;
+    border-bottom-width: 2px;
+border-right-width: 2px;
+overflow: auto;
+    padding: 10px;
+   
+}
+#act_title{
+    padding:10px;
+    position:absolute;
+    top:10px;
+    left: 0%;
+    column-span: none;
+    font-size: 40px;
+    text-align:center;
+    
+}
+nav li{
+    color:darkslategrey;
+    text-align: justify;
+    text-anchor: middle;
+}
+div{
+    border-style: double;
+    border-top-width: 3px;
+    border-top-style:double;
+    border: 3px;
+    border-top-color:rgb(90, 38, 38);
+
+}
+#vname{
+    margin-left:24px;
+    align-self: auto;
+
+    background-color : burlywood;
+    border-color:black;
+    font-size: 12pt;
+    text-align: left;
+    color:indigo;
+}
+
+.container{
+    position: relative;
+}
+section{
+
+    margin-left:0%;
+}
+nav{
+    position:absolute;
+    left:0px;
+    float:left;
+    width:200px;
+    border: 1px solid blueviolet;
+    border-radius: 3px;
+}
+.toptable
+{
+    margin-left:25%;
+    width : 70%;
+}
+td
+{
+    background-color: blanchedalmond;
+}
