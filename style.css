@@ -6,19 +6,25 @@ body {
 header, footer { 
     padding: 10px;
     color: white;
-    background-color: black;
+    background-color: rgb(74, 105, 189);
+}
+
+.menu {
+margin: 3px;
+padding: 3px;
+background-color: azure
 }
 
 section {
     margin: 5px;
     padding: 10px;
-    background-color: lightgrey;
+    background-color: rgba(119, 144, 226, 0.39);
 }
 
 article {
     margin: 5px;
     padding: 10px;
-    background-color: white;
+    background-color: aliceblue;
 }
 
 nav ul {
