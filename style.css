@@ -1,59 +1,87 @@
 body {
-    font-family: '맑은 고딕';
-    font-size: 9px;
+  font-family: '맑은 고딕';
+  font-size: 9px;
 }
 
-header, footer { 
-    padding: 10px;
-    color: white;
-    background-color: rgb(74, 105, 189);
+header, footer {
+  padding: 10px;
+  color: white;
+  background-color: rgb(74, 105, 189);
 }
 
-.menu {
-margin: 3px;
-padding: 10px;
-background-color: rgba(23, 19, 77, 0.671)
+.menu {  
+  height:120px;
+  margin: 0px;
+  padding: 3px;
+  background-color: rgba(23, 19, 77, 0.671)
+}
 
+.menu ul {
+
+ 
 }
-.menu ul{
-    border: 3px, white;
+
+.menu li {
+  color: white;
+  padding:3px;
 }
-.menu ul li{
-    color: white;
-    padding : 5px;
-    background-color: rgba(8, 2, 85, 0.842)
+
+.menu ul li 
+{
+  
+}
+
+.menu ul li a{
+  margin-left: 10px;
+}
+
+
+.menu ul li {
+  float: left;
+  list-style-type: none;
+}
+
+.menu ul ul {
+  border: 1px;
+}
+
+.menu ul ul li {
+  float: none;
+}
+
+.menu ul ul li:hover {
+  background: rgba(25, 21, 77, 0.671);
+
 }
 
 .menu li ul {
-    display:none;
-    height:auto;
-    padding:0px;
-    margin:0px;
-    border:0px;
-    position:absolute;
-    width:200px;
-    z-index:200;
+  background: rgba(59, 53, 139, 0.671);
+  display: none;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  position: absolute;
+  width: 200;
+  z-index: 200;
 }
-.menu li:hover ul{
-    display:block;
+
+.menu li:hover ul {
+  display: block;
 }
+
 section {
-    margin: 5px;
-    padding: 10px;
-    background-color: rgba(119, 144, 226, 0.39);
+  margin: 5px;
+  padding: 10px;
+  background-color: rgba(119, 144, 226, 0.39);
 }
 
 article {
-    margin: 5px;
-    padding: 10px;
-    background-color: aliceblue;
+  margin: 5px;
+  padding: 10px;
+  background-color: aliceblue;
 }
 
-nav ul {
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 5px;
+li {
+  font-size: 12px;
 }
